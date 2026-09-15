@@ -32,7 +32,8 @@ module simple(
 	3'b101:result=7'b0011111;
 	3'b110:result=7'b0111111;
 	3'b111:result=7'b1111111;
-
+		endcase
+	end
 endmodule
 
 
