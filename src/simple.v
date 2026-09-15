@@ -22,7 +22,8 @@ module simple(
 	      output reg [6:0] result);
    
 // add your code here
-	always @(a)
+	always @(*)
+		case(a)
 	3'b000:result=7'b0000000;
 	3'b001:result=7'b0000001;
 	3'b010:result=7'b0000011;
